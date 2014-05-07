@@ -13,7 +13,7 @@ then edit cron to add triggers using
 
     crontab -e
     
-each line should specify the trigger time or interval and the command "cronnode *nameofarraytosend*" for example
+each line should specify the trigger time or interval and the command "cronnode *nameofarraytosend*" for example to log peak and off peak tarrif use/cost the following lines use "cronnode offPeak" and "cronnode onPeak"
 
     # trigger off-peak tarrif at midnight daily
     00 00 * * * cronnode offPeak
