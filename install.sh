@@ -4,7 +4,7 @@ echo
 echo "Installing CronNode for emonHub................"
 sudo mkdir $INST_PATH
 sudo mv cronnode/cronnode.py $INST_PATH
-sudo ln $INST_PATH/cronnode.py usr/bin/cronnode
+sudo ln -s $INST_PATH/cronnode.py /usr/bin/cronnode
 sudo rm -r cronnode
 echo "run ' crontab -e ' to edit cron tab"
 echo "example entry"
