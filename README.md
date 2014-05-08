@@ -7,7 +7,7 @@ Cron based synthetic node to add schedules to emonHub.
 
 After installing emonHub, from home dir run
 
-    git clone https://github.com/otherWIP/cronnode.git && cronnode/cronnode.sh
+    git clone https://github.com/otherWIP/cronnode.git && cronnode/install.sh
     
 then edit cron to add triggers using
 
