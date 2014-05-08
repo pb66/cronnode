@@ -9,7 +9,7 @@ After installing emonHub, from home dir run
 
     git clone https://github.com/otherWIP/cronnode.git && cronnode/install.sh
     
-then edit cron to add triggers using
+then edit cron to add triggers using (NOTE TO SELF - should add to emonhub user's crontab)
 
     crontab -e
     
