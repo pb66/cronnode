@@ -16,9 +16,9 @@ dataTX = ""
 # frame = 'NodeID val1 val2'
 # dataTX = 'NodeID currentCost
 if      dataID == "onPeak":
-                dataTX = '15 15807 1 0'
+                dataTX = '15 15.807 1 0'
 elif    dataID == "offPeak":
-                dataTX = '15 6949 0 1'
+                dataTX = '15 6.949 0 1'
 else:
         exit
 
