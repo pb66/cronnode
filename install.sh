@@ -1,7 +1,7 @@
 #!/bin/sh
-INST_PATH=/usr/share/emonhub/cronnode
+INST_PATH=/usr/share/cronnode
 echo
-echo "Installing CronNode for emonHub................"
+echo "Installing CronNode................"
 sudo mkdir $INST_PATH
 sudo mv cronnode/cronnode.py $INST_PATH
 sudo ln -s $INST_PATH/cronnode.py /usr/bin/cronnode
